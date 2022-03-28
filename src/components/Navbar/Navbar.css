@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Barlow", sans-serif !important;
+}
+h1,
+h2 {
+    font-family: "Lobster", cursive !important;
+}
+.headertop {
+    background-color: #212121;
+    padding: 5px 0;
+    font-size: 14px;
+}
+.top-left {
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    height: 100%;
+}
+.top-left a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.top-left .icon {
+    color: #d1c647;
+}
+/*----top Right-----*/
+.top-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.social-icon {
+    margin-left: 15px;
+}
+.social-icon a {
+    color: #fff;
+    margin: 5px;
+    font-size: 18px;
+}
+.headertop a {
+    text-decoration: none;
+    color: #fff;
+}
+/*------Main Header-------*/
+.header-nav {
+    padding: 20px 0;
+    background-color: #f9a825;
+}
+.header-nav a.navbar-brand {
+    color: #fff;
+    font-family: "Lobster" cursive !important;
+    font-size: 2.5rem;
+}
+.header-nav li.nav-item .nav-link {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 10px;
+}
+.search-form {
+    width: 50%;
+}
+.right-side {
+    margin-left: 3rem;
+}
+.right-side a {
+    display: inline-block;
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
