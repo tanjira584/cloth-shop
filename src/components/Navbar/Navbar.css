@@ -57,12 +57,10 @@ h2 {
     font-family: "Lobster" cursive !important;
     font-size: 2.5rem;
 }
-.header-nav li.nav-item .nav-link {
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 600;
-    margin: 0 10px;
+.header-nav .navbar-toggler {
+    border: 2px solid #fff;
 }
+
 .search-form {
     width: 50%;
 }

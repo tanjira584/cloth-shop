@@ -1,11 +1,12 @@
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
+import Banner from "./components/Banner/Banner";
+import Navbar2 from "./components/Navbar2/Navbar2";
 
 function App() {
     return (
         <div className="">
-            <Navbar></Navbar>
-            <h2 className="text-danger">Hello Horld</h2>
+            <Navbar2></Navbar2>
+            <Banner></Banner>
         </div>
     );
 }

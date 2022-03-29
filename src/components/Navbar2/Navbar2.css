@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-header {
+    position: relative;
+    z-index: 9999 !important;
+}
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li {
+    display: inline;
+    margin: 0 4px;
+}
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 14px;
+    color: #fff;
+}
+.cart-icon a {
+    margin-left: 6px;
+    font-size: 18px;
+    padding: 2px;
+    color: #fff;
+}
+.toggle-btn {
+    margin-left: 10px;
+    font-size: 18px;
+    padding: 3px 10px;
+    color: #fff;
+    border: 1px solid #f7f7f7;
+}
+@media screen and (max-width: 768px) {
+    .mobile-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: green;
+        max-height: 0px;
+        overflow: hidden;
+        transition: 0.5s all;
+    }
+    .mobile-menu.open {
+        max-height: 170px;
+    }
+    .mobile-menu ul li {
+        display: inherit;
+        margin: 0;
+    }
+    .mobile-menu ul li a {
+        display: block;
+        padding: 10px;
+    }
+    .mobile-menu ul li:hover a {
+        background: rgba(187, 187, 66, 0.13);
+    }
+}
