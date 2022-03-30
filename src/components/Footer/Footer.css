@@ -20,7 +20,8 @@
     color: #fff;
 }
 /*--------Culture----*/
-ul {
+.culture ul,
+.case-studies ul {
     list-style: none;
     margin: 0;
     padding: 0;

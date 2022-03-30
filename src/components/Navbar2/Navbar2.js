@@ -7,6 +7,7 @@ import {
     faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import "./Navbar2.css";
+import Cart from "../Cart/Cart";
 
 const Navbar2 = () => {
     const [toggle, setToggle] = useState(false);
@@ -52,10 +53,13 @@ const Navbar2 = () => {
                     </form>
 
                     <div className="cart-icon ms-auto d-flex justify-content-center text-align-center">
-                        <a href=" ">
+                        <a className="cart-btn" href=" ">
                             <FontAwesomeIcon
                                 icon={faShoppingCart}
                             ></FontAwesomeIcon>
+                            <div className="cart-body">
+                                <Cart />
+                            </div>
                         </a>
                         <a href=" ">
                             <FontAwesomeIcon icon={faHeart}></FontAwesomeIcon>
