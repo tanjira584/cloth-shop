@@ -1,0 +1,61 @@
+.footer-area {
+    padding-top: 50px;
+    background-color: #f5f5f5;
+}
+
+.about-comet button {
+    background: transparent;
+    color: #04cde7fd;
+    border: 2px solid #04cde7fd;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    transition: 0.5s all;
+}
+.about-comet button:hover {
+    background-color: #04cde7fd;
+    color: #fff;
+}
+/*--------Culture----*/
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.culture ul li,
+.case-studies ul li {
+    margin: 4px 0;
+}
+.culture ul li a,
+.case-studies ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 4px 0;
+    color: #666666;
+    transition: 0.5s all;
+}
+.culture ul li a:hover,
+.case-studies ul li a:hover {
+    color: #04cde7fd;
+}
+/*----Subscribe------*/
+.subscribe input {
+    padding: 12px;
+}
+.subscribe input:last-child {
+    background: #04cde7fd;
+    outline: none;
+    border: 1px solid #04cde7fd;
+    letter-spacing: 0.5px;
+    color: #fff;
+}
+.copy-right {
+    padding: 30px 0;
+    border-top: 2px solid #dddddd;
+}
