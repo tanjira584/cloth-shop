@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.category hr {
+    width: 100px;
+}
+.category ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.category ul li {
+    margin: 2px;
+}
+.category ul li a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 0;
+    border-bottom: 1px solid #cccccc;
+    color: #666666;
+}
+.category ul li:last-child a {
+    border-bottom: 1px solid transparent;
+}
+/*--------Tranding----------*/
+.tranding hr {
+    width: 100px;
+}
+.tranding ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.tranding ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.tranding-img {
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.tranding-img img {
+    width: 100%;
+}
+.tranding-price {
+    margin-left: 14px;
+}
+.tranding-price a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    display: block;
+    margin-bottom: 4px;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+.tranding-price span {
+    color: #666666;
+}
+/*-------Serach Bar-----*/
+.search-bar hr {
+    width: 50px;
+}
+.search-bar input {
+    padding: 16px;
+}
+/*-----Popular Tags --------*/
+.popular-tags hr {
+    width: 100px;
+}
+.popular-tags h5 {
+    margin-bottom: 30px;
+}
+.popular-tags a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #464444;
+    padding: 10px 30px;
+    letter-spacing: 0.5px;
+    margin-right: 10px;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,38 @@
+.selectInput {
+    width: 200px;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    outline: none;
+}
+.result-count p {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #666666;
+}
+.pagination {
+    justify-content: center;
+}
+.pagination ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.pagination ul li {
+    display: inline;
+    margin: 0 2px;
+}
+.pagination ul li a {
+    text-decoration: none;
+    padding: 6px 12px;
+    transition: 0.5s all;
+    color: #666666;
+}
+.pagination ul li.active a {
+    background: #04cde7fd;
+    color: #fff;
+}
+.pagination ul li a:hover {
+    background: #000;
+    color: #fff;
+}

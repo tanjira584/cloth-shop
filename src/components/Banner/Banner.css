@@ -1,11 +1,10 @@
 .sellerBanner {
-    min-height: 375px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bannerContent {
-    padding: 50px 0;
+    padding: 120px 0;
 }
 .bannerContnent address {
     font-size: 16px;

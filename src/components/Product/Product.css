@@ -1,0 +1,33 @@
+.product span {
+    color: #666666;
+}
+.product p {
+    letter-spacing: 0.5px;
+}
+.product .img {
+    position: relative;
+    overflow: hidden;
+}
+.product .img img {
+    height: 100%;
+}
+.product .img .cart-btn {
+    position: absolute;
+    left: 0;
+    bottom: -90px;
+    width: 100%;
+    background-color: #04cde7bb;
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s all;
+}
+.cart-btn button {
+    padding: 10px 30px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    outline: none;
+}
+.product:hover .img .cart-btn {
+    bottom: 0;
+}

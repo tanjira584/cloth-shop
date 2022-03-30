@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <section
             className="sellerBanner"
-            style={{ backgroundImage: "url(images/banner2.jpg)" }}
+            style={{ backgroundImage: "url(images/banner1.jpg)" }}
         >
             <div className="container d-flex">
                 <div className="bannerContent">

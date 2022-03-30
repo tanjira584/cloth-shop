@@ -15,11 +15,11 @@ const Navbar2 = () => {
         console.log(toggle);
     };
     return (
-        <section className="main-header bg-warning py-2">
+        <section className="main-header py-2">
             <div className="container-fluid container-md">
-                <div className="menu-container d-flex justify-content-end justify-content-md-beetween align-items-center">
-                    <div className="logo me-auto">
-                        <h1>ClothShop</h1>
+                <div className="menu-container d-flex justify-content-start justify-content-md-beetween align-items-center">
+                    <div className="logo">
+                        <h1 className="text-info">ClothShop</h1>
                     </div>
                     <div
                         className={`menu mobile-menu ${toggle ? "open" : " "}`}
@@ -39,9 +39,9 @@ const Navbar2 = () => {
                             </li>
                         </ul>
                     </div>
-                    <form className="search-form d-md-flex d-none ms-auto">
+                    <form className="search-form d-md-flex ms-auto d-none">
                         <input
-                            className="form-control me-2 w-75"
+                            className="form-control me-2 w-100"
                             type="search"
                             placeholder="Search"
                             aria-label="Search"
@@ -51,7 +51,7 @@ const Navbar2 = () => {
                         </button>
                     </form>
 
-                    <div className="cart-icon d-flex justify-content-center text-align-center">
+                    <div className="cart-icon ms-auto d-flex justify-content-center text-align-center">
                         <a href=" ">
                             <FontAwesomeIcon
                                 icon={faShoppingCart}
