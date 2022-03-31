@@ -12,8 +12,11 @@ const Cart = () => {
                         <img src="images/1.jpg" alt="" />
                     </div>
                     <div className="product-price">
-                        <a href=" ">Product pricing</a>
+                        <a className="p-0" href=" ">
+                            Product pricing
+                        </a>
                         <span>$199.99</span>
+                        <p className="prod-quantity">Quantity: 1</p>
                     </div>
                     <input
                         type="number"
@@ -31,8 +34,11 @@ const Cart = () => {
                         <img src="images/2.jpg" alt="" />
                     </div>
                     <div className="product-price">
-                        <a href=" ">Product pricing</a>
+                        <a className="p-0" href=" ">
+                            Product pricing
+                        </a>
                         <span>$299.99</span>
+                        <p className="prod-quantity">Quantity: 1</p>
                     </div>
                     <input
                         type="number"
@@ -50,8 +56,11 @@ const Cart = () => {
                         <img src="images/3.jpg" alt="" />
                     </div>
                     <div className="product-price">
-                        <a href=" ">Product pricing</a>
+                        <a className="p-0" href=" ">
+                            Product pricing
+                        </a>
                         <span>$150.50</span>
+                        <p className="prod-quantity">Quantity: 1</p>
                     </div>
                     <input
                         type="number"
@@ -69,8 +78,11 @@ const Cart = () => {
                         <img src="images/4.jpg" alt="" />
                     </div>
                     <div className="product-price">
-                        <a href=" ">Product pricing</a>
+                        <a className="p-0" href=" ">
+                            Product pricing
+                        </a>
                         <span>$99.99</span>
+                        <p className="prod-quantity">Quantity: 1</p>
                     </div>
                     <input
                         type="number"
